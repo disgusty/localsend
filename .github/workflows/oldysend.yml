@@ -17,24 +17,28 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Pinned: the image ships the Android SDK; ubuntu-latest moves to a new Ubuntu on 2026-10-19.
+    runs-on: ubuntu-24.04
     env:
       KEYSTORE_BASE64: ${{ secrets.OLDYSEND_KEYSTORE_BASE64 }}
     defaults:
       run:
         working-directory: oldysend
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "21"
 
-      - uses: android-actions/setup-android@v3
-
+      # The runner image already contains the Android SDK and sdkmanager (no third-party setup action needed).
       - name: Android SDK packages
-        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+        run: |
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
 
       - uses: gradle/actions/setup-gradle@v4
 
