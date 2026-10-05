@@ -1,0 +1,577 @@
+{
+  "appName": "LocalSend",
+  "general": {
+    "accept": "ܩܒܠ",
+    "accepted": "ܐܬܩܒܠ",
+    "add": "ܐܘܣܦ",
+    "advanced": "ܡܬܩܕܡܐ",
+    "cancel": "ܒܛܠ",
+    "close": "ܐܚܘܕ",
+    "confirm": "ܫܪܪ",
+    "continueStr": "ܐܡܢ",
+    "copy": "ܥܬܩ",
+    "copiedToClipboard": "ܐܬܥܬܩ ܠܠܘܚܐ",
+    "decline": "ܣܠܝ",
+    "done": "ܓܡܝܪ",
+    "delete": "ܥܛܝ",
+    "edit": "ܬܩܢ",
+    "error": "ܛܥܝܘܬܐ",
+    "example": "ܡܬܠܐ",
+    "files": "ܠܦ̈ܦܐ",
+    "finished": "ܫܠܡ",
+    "hide": "ܛܫܝ",
+    "off": "ܕܥܝܟ",
+    "offline": "ܠܐ ܡܢܩܦ",
+    "on": "ܕܠܝܩ",
+    "online": "ܡܢܩܦ",
+    "open": "ܦܬܚ",
+    "queue": "ܣܕܪܐ",
+    "quickSave": "ܢܛܪܐ ܥܓܠܐ",
+    "quickSaveFromFavorites": "ܢܛܪܐ ܥܓܠܐ ܠ\"ܚܒܝ̈ܒܐ\"",
+    "renamed": "ܐܫܬܚܠܦ ܫܡܗ",
+    "reset": "ܐܗܦܟ ܫܘܚܠܦ̈ܐ",
+    "restart": "ܫܪܝ ܡܢ ܕܪܝܫ",
+    "settings": "ܛܘܝܒ̈ܐ",
+    "skipped": "ܐܬܥܒܪ",
+    "start": "ܫܪܝ",
+    "stop": "ܐܘܩܦ",
+    "save": "ܢܛܘܪ",
+    "unchanged": "ܠܐ ܐܫܬܚܠܦ",
+    "unknown": "ܠܐ ܝܕܝܥ",
+    "noItemInClipboard": "ܠܝܬ ܡܕܡ ܒܠܘܚܐ."
+  },
+  "receiveTab": {
+    "title": "ܩܘܒܠܐ",
+    "infoBox": {
+      "ip": "IP:",
+      "port": "ܬܪܥܐ:",
+      "alias": "ܫܡܐ ܕܡܐܢܐ:"
+    },
+    "quickSave": {
+      "off": "@:general.off",
+      "favorites": "ܚܒܝ̈ܒܐ",
+      "on": "@:general.on"
+    },
+    "link": "ܩܘܒܠܐ ܒܐܣܘܪܐ"
+  },
+  "sendTab": {
+    "title": "ܫܘܕܪܐ",
+    "selection": {
+      "title": "ܓܒܝܬܐ",
+      "files": "ܠܦ̈ܦܐ: {files}",
+      "size": "ܡܫܘܚܬܐ: {size}"
+    },
+    "picker": {
+      "file": "ܠܦܦܐ",
+      "folder": "ܬܝܩܐ",
+      "media": "ܡܝܕܝܐ",
+      "text": "ܟܬܝܒܬܐ",
+      "app": "ܡܦܠܚܢܘܬܐ",
+      "clipboard": "ܐܕܒܩ"
+    },
+    "shareIntentInfo": "ܡܨܐ ܐܢܬ ܕܬܦܠܘܚ ܐܦ ܒܣܘܥܪܢܐ \"ܫܘܬܦ\" ܕܡܐܢܐ ܡܫܬܢܝܢܐ ܕܝܠܟ، ܕܬܓܒܐ ܠܦ̈ܦܐ ܒܦܫܝܩܘܬܐ.",
+    "nearbyDevices": "ܡܐܢ̈ܐ ܩܪܝ̈ܒܐ",
+    "thisDevice": "ܗܢܐ ܡܐܢܐ",
+    "scan": "ܒܨܝ ܡܐܢ̈ܐ",
+    "manualSending": "ܫܘܕܪܐ ܒܐܝܕܐ",
+    "sendMode": "ܙܢܐ ܕܫܘܕܪܐ",
+    "sendModes": {
+      "single": "ܡܩܒܠܢܐ ܚܕ",
+      "multiple": "ܡܩܒܠܢ̈ܐ ܣܓܝ̈ܐܐ",
+      "link": "ܫܘܬܦܘܬܐ ܒܐܣܘܪܐ"
+    },
+    "sendModeHelp": "ܦܘܫܩܐ",
+    "help": "ܚܙܝ ܕܐܦ ܡܐܢܐ ܕܨܒܝܬ ܐܝܬܘܗܝ ܒܗܝ ܡܨܝܕܬܐ ܕܘܐܝܦܐܝ ܒܥܝܢܗ.",
+    "placeItems": "ܣܝܡ ܡ̈ܕܡܐ ܠܫܘܬܦܘܬܐ."
+  },
+  "settingsTab": {
+    "title": "ܛܘܝܒ̈ܐ",
+    "general": {
+      "title": "ܓܘܢܝܐ",
+      "brightness": "ܚܙܘܐ",
+      "brightnessOptions": {
+        "system": "ܛܟܣܐ",
+        "dark": "ܚܫܘܟܐ",
+        "light": "ܢܗܝܪܐ"
+      },
+      "color": "ܓܘܢܐ",
+      "colorOptions": {
+        "system": "ܛܟܣܐ",
+        "oled": "OLED",
+        "custom": "ܕܨܒܝܢܐ"
+      },
+      "language": "ܠܫܢܐ",
+      "languageOptions": {
+        "system": "ܛܟܣܐ"
+      },
+      "saveWindowPlacement": "ܢܛܘܪ ܕܘܟܬܐ ܕܟܘܬܐ ܒܬܪ ܡܦܩܢܐ",
+      "saveWindowPlacementWindows": "ܢܛܘܪ ܕܘܟܬܐ ܕܟܘܬܐ ܒܬܪ ܡܦܩܢܐ",
+      "alwaysOnTop": "ܐܡܝܢܐܝܬ ܠܥܠ",
+      "alwaysOnTopUnavailable": "ܠܐ ܡܣܬܡܟ ܥܠ Wayland",
+      "minimizeToTray": "ܙܥܪ ܠܛܒܠܝܬܐ ܕܛܟܣܐ/ܣܪܛܐ ܕܡܢܘ ܟܕ ܡܬܐܚܕ",
+      "launchAtStartup": "ܫܘܪܝܐ ܡܢ ܢܦܫܗ ܒܬܪ ܡܥܠܢܐ",
+      "launchMinimized": "ܫܘܪܝܐ ܡܢ ܢܦܫܗ: ܫܪܝ ܟܣܝܐ",
+      "showInContextMenu": "ܚܘܝ LocalSend ܒܡܢܘ ܕܐܝܡܢܐ",
+      "animations": "ܨܘܪ̈ܬܐ ܙܝܥܢܝ̈ܬܐ"
+    },
+    "receive": {
+      "title": "ܩܘܒܠܐ",
+      "quickSave": "@:general.quickSave",
+      "quickSaveFromFavorites": "@:general.quickSaveFromFavorites",
+      "requirePin": "@:webSharePage.requirePin",
+      "autoFinish": "ܫܘܠܡܐ ܡܢ ܢܦܫܗ",
+      "destination": "ܢܛܘܪ ܒܬܝܩܐ",
+      "downloads": "(ܡܚܬܢܘ̈ܬܐ)",
+      "saveToGallery": "ܢܛܘܪ ܡܝܕܝܐ ܒܓܠܪܝܐ",
+      "saveToHistory": "ܢܛܘܪ ܒܬܫܥܝܬܐ",
+      "verifyChecksums": "ܒܚܘܪ ܚܘܫ̈ܒܢܐ ܕܒܘܚܪܢܐ ܟܕ ܡܩܒܠ ܠܦ̈ܦܐ"
+    },
+    "send": {
+      "title": "ܫܘܕܪܐ",
+      "shareViaLinkAutoAccept": "ܩܒܠ ܒܥܘ̈ܬܐ ܡܢ ܢܦܫܗܝܢ ܒܙܢܐ \"ܫܘܬܦܘܬܐ ܒܐܣܘܪܐ\"",
+      "createChecksums": "ܥܒܕ ܚܘܫ̈ܒܢܐ ܕܒܘܚܪܢܐ ܟܕ ܡܫܕܪ ܠܦ̈ܦܐ"
+    },
+    "network": {
+      "title": "ܡܨܝܕܬܐ",
+      "needRestart": "ܫܪܝ ܠܡܫܡܫܢܐ ܡܢ ܕܪܝܫ ܕܢܬܬܣܝܡܘܢ ܛܘܝܒ̈ܐ!",
+      "server": "ܡܫܡܫܢܐ",
+      "alias": "ܫܡܐ ܕܡܐܢܐ",
+      "deviceType": "ܓܢܣܐ ܕܡܐܢܐ",
+      "deviceModel": "ܛܘܦܣܐ ܕܡܐܢܐ",
+      "port": "ܬܪܥܐ",
+      "network": "ܡܨܝܕܬܐ",
+      "networkOptions": {
+        "all": "ܟܠܗܝܢ",
+        "filtered": "ܡܨܠܠܬܐ"
+      },
+      "discoveryTimeout": "ܣܘܦܐ ܕܙܒܢܐ ܕܐܫܟܚܬܐ",
+      "useSystemName": "ܦܠܘܚ ܒܫܡܐ ܕܛܟܣܐ",
+      "generateRandomAlias": "ܒܪܝ ܫܡܐ ܓܕܫܢܝܐ",
+      "portWarning": "ܡܡܟܢ ܕܠܐ ܬܫܬܟܚ ܡܢ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ، ܡܛܠ ܕܦܠܚ ܐܢܬ ܒܬܪܥܐ ܕܨܒܝܢܐ. (ܥܝܕܝܐ: {defaultPort})",
+      "encryption": "ܛܘܫܝܐ",
+      "multicastGroup": "ܡܘܢܥܐ ܕܡܘܠܬܝܟܐܣܬ",
+      "multicastGroupWarning": "ܡܡܟܢ ܕܠܐ ܬܫܬܟܚ ܡܢ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ، ܡܛܠ ܕܦܠܚ ܐܢܬ ܒܡܘܢܥܐ ܕܡܘܠܬܝܟܐܣܬ ܕܨܒܝܢܐ. (ܥܝܕܝܐ: {defaultMulticast})"
+    },
+    "other": {
+      "title": "ܐܚܪ̈ܢܝܬܐ",
+      "support": "ܣܥܘܕ LocalSend",
+      "donate": "ܬܠ ܡܘܗܒܬܐ",
+      "privacyPolicy": "ܢܡܘܣܐ ܕܓܢܝܙܘܬܐ",
+      "termsOfUse": "ܬܢܝ̈ܐ ܕܦܘܠܚܢܐ"
+    },
+    "advancedSettings": "ܛܘܝܒ̈ܐ ܡܬܩܕ̈ܡܐ"
+  },
+  "troubleshootPage": {
+    "title": "ܬܘܪܨ ܥܛܠܘ̈ܬܐ",
+    "subTitle": "ܠܐ ܦܠܚܐ ܡܦܠܚܢܘܬܐ ܐܝܟ ܡܐ ܕܡܣܟܐ ܐܢܬ؟ ܗܪܟܐ ܡܫܟܚ ܐܢܬ ܫܪ̈ܝܐ ܓܘܢܝ̈ܐ ܠܥܛܠܘ̈ܬܐ.",
+    "solution": "ܫܪܝܐ:",
+    "fixButton": "ܬܪܘܨ ܡܢ ܢܦܫܗ",
+    "firewall": {
+      "symptom": "ܗܢܐ ܡܐܢܐ ܡܨܐ ܕܢܫܕܪ ܠܦ̈ܦܐ ܠܡܐܢ̈ܐ ܐܚܪ̈ܢܐ، ܐܠܐ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ ܠܐ ܡܨܝܢ ܕܢܫܕܪܘܢ ܠܦ̈ܦܐ ܠܗܢܐ ܡܐܢܐ.",
+      "solution": "ܗܕܐ ܝܬܝܪ ܡܢ ܟܠ ܥܛܠܘܬܐ ܕܫܘܪܐ ܕܢܘܪܐ ܗܝ. ܡܨܐ ܐܢܬ ܕܬܫܪܝܗ̇ ܟܕ ܡܦܣ ܐܢܬ ܢܘ̈ܩܦܐ ܥܐܠ̈ܝܢܐ (UDP ܘTCP) ܥܠ ܬܪܥܐ {port}.",
+      "openFirewall": "ܦܬܚ ܫܘܪܐ ܕܢܘܪܐ"
+    },
+    "noDiscovery": {
+      "symptom": "ܗܢܐ ܡܐܢܐ ܠܐ ܡܨܐ ܕܢܫܟܚ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ.",
+      "solution": "ܚܙܝ ܕܟܠܗܘܢ ܡܐܢ̈ܐ ܐܝܬܝܗܘܢ ܒܗܝ ܡܨܝܕܬܐ ܕܘܐܝܦܐܝ ܒܥܝܢܗ ܘܫܘܝܢ ܒܛܘܝܒ̈ܐ (ܬܪܥܐ، ܡܘܢܥܐ ܕܡܘܠܬܝܟܐܣܬ، ܛܘܫܝܐ). ܡܨܐ ܐܢܬ ܕܬܟܬܘܒ ܒܐܝܕܐ ܡܘܢܥܐ IP ܕܡܐܢܐ ܕܨܒܝܬ. ܐܢ ܗܕܐ ܦܠܚܐ، ܐܘܣܦ ܠܗܢܐ ܡܐܢܐ ܠܚܒܝ̈ܒܐ، ܕܢܫܬܟܚ ܡܢ ܢܦܫܗ ܒܥܬܝܕܐ."
+    },
+    "noConnection": {
+      "symptom": "ܬܪܝܗܘܢ ܡܐܢ̈ܐ ܠܐ ܡܫܟܚܝܢ ܚܕ ܠܚܕ، ܘܠܐ ܡܨܝܢ ܕܢܫܬܘܬܦܘܢ ܒܠܦ̈ܦܐ.",
+      "solution": "ܐܝܬܝܗ̇ ܥܛܠܘܬܐ ܒܬܪܝܗܘܢ ܓܒ̈ܐ؟ ܐܢ ܗܟܢ، ܘܠܐ ܠܟ ܕܬܚܙܐ ܕܬܪܝܗܘܢ ܡܐܢ̈ܐ ܐܝܬܝܗܘܢ ܒܗܝ ܡܨܝܕܬܐ ܕܘܐܝܦܐܝ ܒܥܝܢܗ ܘܫܘܝܢ ܒܛܘܝܒ̈ܐ (ܬܪܥܐ، ܡܘܢܥܐ ܕܡܘܠܬܝܟܐܣܬ، ܛܘܫܝܐ). ܡܡܟܢ ܕܡܨܝܕܬܐ ܕܘܐܝܦܐܝ ܠܐ ܡܦܣܐ ܡܡܠܠܐ ܒܝܬ ܫܘܬܦ̈ܐ ܡܛܠ ܦܘܪܫܐ ܕܢܘܩܙܐ ܕܡܥܠܬܐ (AP Isolation). ܒܗܢܐ ܓܕܫܐ، ܘܠܐ ܕܗܢܐ ܛܘܝܒܐ ܢܬܕܥܟ ܒܪܐܘܬܪ."
+    }
+  },
+  "networkInterfacesPage": {
+    "title": "ܦܐ̈ܬܐ ܕܡܨܝܕܬܐ",
+    "info": "LocalSend ܦܠܚ ܥܝܕܐܝܬ ܒܟܠܗܝܢ ܦܐ̈ܬܐ ܕܡܨܝܕܬܐ ܕܐܝܬ. ܗܪܟܐ ܡܨܐ ܐܢܬ ܕܬܦܠܘܛ ܡܨܝ̈ܕܬܐ ܕܠܐ ܨܒܐ ܐܢܬ. ܘܠܐ ܠܟ ܕܬܫܪܐ ܠܡܫܡܫܢܐ ܡܢ ܕܪܝܫ ܕܢܬܬܣܝܡܘܢ ܫܘܚܠܦ̈ܐ.",
+    "preview": "ܚܙܬܐ ܩܕܡܝܬܐ",
+    "whitelist": "ܣܕܪܐ ܚܘܪܐ",
+    "blacklist": "ܣܕܪܐ ܐܘܟܡܐ"
+  },
+  "receiveHistoryPage": {
+    "title": "ܬܫܥܝܬܐ",
+    "openFolder": "ܦܬܚ ܬܝܩܐ",
+    "deleteHistory": "ܥܛܝ ܬܫܥܝܬܐ",
+    "empty": "ܬܫܥܝܬܐ ܣܦܝܩܐ ܗܝ.",
+    "entryActions": {
+      "open": "ܦܬܚ ܠܦܦܐ",
+      "showInFolder": "ܚܘܝ ܒܬܝܩܐ",
+      "info": "ܝܕ̈ܥܬܐ",
+      "deleteFromHistory": "ܥܛܝ ܡܢ ܬܫܥܝܬܐ"
+    }
+  },
+  "apkPickerPage": {
+    "title": "ܡܦܠܚܢܘ̈ܬܐ (APK)",
+    "excludeSystemApps": "ܦܠܘܛ ܡܦܠܚܢܘ̈ܬܐ ܕܛܟܣܐ",
+    "excludeAppsWithoutLaunchIntent": "ܦܠܘܛ ܡܦܠܚܢܘ̈ܬܐ ܕܠܐ ܡܫܬܪܝܢ",
+    "apps": "{n} ܡܦܠܚܢܘ̈ܬܐ"
+  },
+  "selectedFilesPage": {
+    "deleteAll": "ܥܛܝ ܟܠ"
+  },
+  "deviceDetailsPage": {
+    "title": "ܝܕ̈ܥܬܐ ܕܡܐܢܐ",
+    "favorite": "ܚܒܝܒܐ",
+    "verify": "ܒܚܘܪ",
+    "info": {
+      "name": "ܫܡܐ",
+      "address": "ܡܘܢܥܐ",
+      "version": "ܡܦܩܬܐ",
+      "protocol": "ܦܪܘܛܘܩܘܠ v{version}"
+    },
+    "logs": {
+      "title": "ܪ̈ܘܫܡܐ",
+      "empty": "ܠܝܬ ܪ̈ܘܫܡܐ.",
+      "discovered": "ܐܫܬܟܚ ܒܐܝܕ {protocol} ({host})",
+      "updated": "ܐܬܚܕܬ ܒܐܝܕ {protocol} ({host})"
+    }
+  },
+  "verifyPage": {
+    "title": "ܒܘܚܪܢܐ",
+    "icons": "ܐܝܩܘ̈ܢܐ",
+    "text": "ܟܬܝܒܬܐ",
+    "question": "ܗܟܘܬ ܡܬܚܙܐ ܒܡܐܢܐ ܐܚܪܢܐ؟"
+  },
+  "receivePage": {
+    "subTitle": {
+      "one": "ܨܒܐ ܕܢܫܕܪ ܠܟ ܠܦܦܐ",
+      "other": "ܨܒܐ ܕܢܫܕܪ ܠܟ {n} ܠܦ̈ܦܐ"
+    },
+    "subTitleMessage": "ܫܕܪ ܠܟ ܐܓܪܬܐ:",
+    "subTitleLink": "ܫܕܪ ܠܟ ܐܣܘܪܐ:",
+    "canceled": "ܡܫܕܪܢܐ ܒܛܠ ܒܥܘܬܐ."
+  },
+  "receiveOptionsPage": {
+    "title": "ܓܒܝ̈ܬܐ",
+    "destination": "@:settingsTab.receive.destination",
+    "appDirectory": "(ܬܝܩܐ ܕLocalSend)",
+    "saveToGallery": "@:settingsTab.receive.saveToGallery",
+    "saveToGalleryOff": "ܐܬܕܥܟ ܡܢ ܢܦܫܗ، ܡܛܠ ܕܐܝܬ ܬܝ̈ܩܐ."
+  },
+  "sendPage": {
+    "calculatingChecksum": "ܡܬܚܫܒ ܚܘܫܒܢܐ ܕܒܘܚܪܢܐ ({curr} / {n})",
+    "waiting": "ܡܣܟܐ ܠܦܘܢܝܐ…",
+    "rejected": "ܡܩܒܠܢܐ ܣܠܐ ܠܒܥܘܬܐ.",
+    "tooManyAttempts": "@:web.tooManyAttempts",
+    "busy": "ܡܩܒܠܢܐ ܛܪܝܕ ܒܒܥܘܬܐ ܐܚܪܬܐ."
+  },
+  "progressPage": {
+    "titleSending": "ܫܘܕܪܐ ܕܠܦ̈ܦܐ",
+    "titleReceiving": "ܩܘܒܠܐ ܕܠܦ̈ܦܐ",
+    "savedToGallery": "ܐܬܢܛܪ ܒܨܘܪ̈ܬܐ",
+    "total": {
+      "title": {
+        "sending": "ܡܬܩܕܡܢܘܬܐ ܟܠܢܝܬܐ ({time})",
+        "finishedError": "ܫܠܡ ܥܡ ܛܥܝܘܬܐ",
+        "canceledSender": "ܐܬܒܛܠ ܡܢ ܡܫܕܪܢܐ",
+        "canceledReceiver": "ܐܬܒܛܠ ܡܢ ܡܩܒܠܢܐ"
+      },
+      "count": "ܠܦ̈ܦܐ: {curr} / {n}",
+      "size": "ܡܫܘܚܬܐ: {curr} / {n}",
+      "speed": "ܥܓܠܘܬܐ: {speed}/s"
+    },
+    "remainingTime": {
+      "minutesUnit(plural, param=m)": {
+        "one": "{m} ܩܛܝܢܬܐ",
+        "other": "{m} ܩܛܝ̈ܢܬܐ"
+      },
+      "hoursUnit(plural, param=h)": {
+        "one": "{h} ܫܥܬܐ",
+        "other": "{h} ܫܥ̈ܐ"
+      },
+      "minutes": "{m}:{ss}",
+      "hours": "@:.hoursUnit @:.minutesUnit"
+    }
+  },
+  "webSharePage": {
+    "title": "ܫܘܬܦܘܬܐ ܒܐܣܘܪܐ",
+    "loading": "ܡܫܡܫܢܐ ܡܫܬܪܐ…",
+    "stopping": "ܡܫܡܫܢܐ ܡܬܘܩܦ…",
+    "error": "ܓܕܫܬ ܛܥܝܘܬܐ ܟܕ ܡܫܬܪܐ ܡܫܡܫܢܐ.",
+    "openLink": {
+      "one": "ܦܬܚ ܗܢܐ ܐܣܘܪܐ ܒܒܪܐܘܙܪ ܕܝܠܟ:",
+      "other": "ܦܬܚ ܚܕ ܡܢ ܗܠܝܢ ܐܣܘܪ̈ܐ ܒܒܪܐܘܙܪ ܕܝܠܟ:"
+    },
+    "requests": "ܒܥܘ̈ܬܐ",
+    "noRequests": "ܠܝܬ ܥܕܡܐ ܠܗܫܐ ܒܥܘ̈ܬܐ.",
+    "encryption": "@:settingsTab.network.encryption",
+    "autoAccept": "ܩܒܠ ܒܥܘ̈ܬܐ ܡܢ ܢܦܫܗܝܢ",
+    "requirePin": "ܬܒܘܥ PIN",
+    "pinHint": "PIN ܐܝܬܘܗܝ \"{pin}\"",
+    "encryptionHint": "LocalSend ܦܠܚ ܒܫܛܪܐ ܕܣܗܕܘܬܐ ܕܚܬܝܡ ܡܢ ܢܦܫܗ. ܘܠܐ ܠܟ ܕܬܩܒܠܝܘܗܝ ܒܒܪܐܘܙܪ ܕܝܠܟ.",
+    "pendingRequests": "ܒܥܘ̈ܬܐ ܡܣܟܝ̈ܢܝܬܐ: {n}"
+  },
+  "webReceivePage": {
+    "title": "ܩܘܒܠܐ ܒܐܣܘܪܐ"
+  },
+  "aboutPage": {
+    "title": "ܥܠ LocalSend",
+    "description": [
+      "LocalSend ܡܦܠܚܢܘܬܐ ܡܓܢܐ ܘܕܡܒܘܥܗ ܦܬܝܚ ܗܝ، ܕܡܦܣܐ ܠܟ ܕܬܫܬܘܬܦ ܒܠܦ̈ܦܐ ܘܒܐܓܪ̈ܬܐ ܥܡ ܡܐܢ̈ܐ ܩܪܝ̈ܒܐ ܥܡ ܢܛܘܪܘܬܐ ܒܡܨܝܕܬܐ ܐܬܪܝܬܐ ܕܝܠܟ، ܕܠܐ ܣܢܝܩܘܬܐ ܕܢܘܩܦܐ ܥܡ ܐܢܛܪܢܝܛ.",
+      "ܗܕܐ ܡܦܠܚܢܘܬܐ ܐܝܬܝܗ̇ ܥܠ Android، iOS، macOS، Windows ܘLinux. ܟܠܗܝܢ ܓܒܝ̈ܬܐ ܕܡܚܬܢܘܬܐ ܡܫܟܚ ܐܢܬ ܒܦܐܬܐ ܪܫܝܬܐ ܡܫܪܪܬܐ."
+    ],
+    "author": "ܣܝܘܡܐ",
+    "contributors": "ܡܥܕܪ̈ܢܐ",
+    "packagers": "ܡܨܪܪ̈ܢܐ",
+    "translators": "ܡܬܪܓܡ̈ܢܐ"
+  },
+  "donationPage": {
+    "title": "ܬܠ ܡܘܗܒܬܐ",
+    "info": "LocalSend ܡܓܢܐ، ܕܡܒܘܥܗ ܦܬܝܚ ܘܕܠܐ ܡܟܪ̈ܙܢܘܬܐ ܗܝ. ܐܢ ܪܚܡ ܐܢܬ ܠܡܦܠܚܢܘܬܐ، ܡܨܐ ܐܢܬ ܕܬܣܥܘܕ ܠܬܘܪܒܝܬܗ̇ ܒܡܘܗܒܬܐ.",
+    "donate": "ܬܠ {amount}",
+    "thanks": "ܬܘܕܝ ܣܓܝ!",
+    "restore": "ܐܗܦܟ ܙܒܢܐ"
+  },
+  "changelogPage": {
+    "title": "ܫܘܚܠܦ̈ܐ ܕܡܦܩ̈ܬܐ"
+  },
+  "whatsNewPage": {
+    "title": "ܡܢܐ ܚܕܬ ܒܡܦܩܬܐ {version}",
+    "changes(interface=WhatsNewStrings)": {
+      "v1_18_0": {
+        "changes": [
+          "ܛܘܫܝܐ ܬܘܒ ܠܐ ܡܘܚܪ ܠܫܘܢܝ̈ܐ. ܐܬܕܠܩ ܬܘܒ ܒܗܢܐ ܡܐܢܐ، ܐܢ ܐܕܥܟܬܝܗܝ ܡܢ ܩܕܝܡ.",
+          "ܒܥܘ̈ܬܐ ܡܢ ܚܒܝ̈ܒܐ ܗܫܐ ܡܬܩܒܠܢ ܡܢ ܢܦܫܗܝܢ. ܗܕܐ ܕܠܝܩܐ ܥܝܕܐܝܬ، ܘܡܫܟܚܐ ܕܬܬܕܥܟ ܒܛܘܝܒ̈ܐ.",
+          "ܥܠ Android، ܫܘܢܝ̈ܐ ܡܐܡܢܝܢ ܟܕ ܡܦܠܚܢܘܬܐ ܒܣܬܪܐ ܐܝܬܝܗ̇ ܐܘ ܟܕ ܡܚܙܝܬܐ ܕܥܝܟܐ. ܥܠ iOS، ܡܦܠܚܢܘܬܐ ܘܠܐ ܕܬܩܘܐ ܒܩܕܡܐ."
+        ]
+      }
+    }
+  },
+  "aliasGenerator(ignoreMissing, ignoreGpt)": {
+    "adjectives": [
+      "ܪܚܝܡܐ",
+      "ܫܦܝܪܐ",
+      "ܪܒܐ",
+      "ܢܗܝܪܐ",
+      "ܕܟܝܐ",
+      "ܚܪܝܦܐ",
+      "ܩܪܝܪܐ",
+      "ܚܠܝܐ",
+      "ܢܟܝܠܐ",
+      "ܬܩܝܦܐ",
+      "ܙܪܝܙܐ",
+      "ܡܫܟܚܢܐ",
+      "ܬܡܝܗܐ",
+      "ܩܠܝܠܐ",
+      "ܦܐܝܐ",
+      "ܪܛܝܒܐ",
+      "ܛܒܐ",
+      "ܫܒܝܚܐ",
+      "ܪܘܪܒܐ",
+      "ܢܨܝܚܐ",
+      "ܚܡܝܡܐ",
+      "ܒܣܝܡܐ",
+      "ܪܓܝܓܐ",
+      "ܐܪܙܢܝܐ",
+      "ܡܛܟܣܐ",
+      "ܢܥܝܡܐ",
+      "ܡܓܪܪܘܚܐ",
+      "ܝܐܝܐ",
+      "ܚܝܠܬܢܐ",
+      "ܥܬܝܪܐ",
+      "ܟܣܝܐ",
+      "ܣܘܟܠܬܢܐ",
+      "ܫܪܝܪܐ",
+      "ܝܚܝܕܝܐ",
+      "ܡܕܒܪܢܐ",
+      "ܥܫܝܢܐ",
+      "ܡܨܒܬܐ",
+      "ܚܟܝܡܐ"
+    ],
+    "fruits": [
+      "ܚܙܘܪܐ",
+      "ܐܒܘܩܕܘ",
+      "ܡܘܙܐ",
+      "ܬܘܬ ܣܢܝܐ",
+      "ܬܘܬܐ ܟܚܠܐ",
+      "ܒܪܘܩܠܝ",
+      "ܓܙܪܐ",
+      "ܩܪܣܝܐ",
+      "ܢܪܓܝܠܐ",
+      "ܥܢܒܐ",
+      "ܠܝܡܘܢܐ",
+      "ܚܣܐ",
+      "ܡܢܓܘ",
+      "ܐܒܛܝܚܐ",
+      "ܟܡܐܐ",
+      "ܒܨܠܐ",
+      "ܢܪܢܓܐ",
+      "ܦܦܝܐ",
+      "ܦܪܣܩܐ",
+      "ܟܘܡܬܪܐ",
+      "ܐܢܢܣܐ",
+      "ܦܛܛܐ",
+      "ܩܪܐ",
+      "ܬܘܬܐ ܣܘܡܩܐ",
+      "ܬܘܬ ܐܪܥܐ",
+      "ܛܡܛܐ"
+    ],
+    "combination": "{fruit} {adjective}"
+  },
+  "dialogs": {
+    "addFile": {
+      "title": "ܐܘܣܦ ܠܓܒܝܬܐ",
+      "content": "ܡܢܐ ܨܒܐ ܐܢܬ ܕܬܘܣܦ؟"
+    },
+    "openFile": {
+      "title": "ܦܬܚ ܠܦܦܐ",
+      "content": "ܨܒܐ ܐܢܬ ܕܬܦܬܚ ܠܦܦܐ ܕܐܬܩܒܠ؟"
+    },
+    "addressInput": {
+      "title": "ܟܬܘܒ ܡܘܢܥܐ",
+      "hashtag": "ܗܐܫܬܐܓ",
+      "ip": "ܡܘܢܥܐ IP",
+      "recentlyUsed": "ܐܬܦܠܚ ܡܢ ܩܠܝܠ: "
+    },
+    "cancelSession": {
+      "title": "ܒܛܠ ܫܘܢܝܐ ܕܠܦ̈ܦܐ",
+      "content": "ܫܪܝܪܐܝܬ ܨܒܐ ܐܢܬ ܕܬܒܛܠ ܫܘܢܝܐ ܕܠܦ̈ܦܐ؟"
+    },
+    "cannotOpenFile": {
+      "title": "ܠܐ ܡܬܦܬܚ ܠܦܦܐ",
+      "content": "ܠܐ ܡܨܐ ܗܘܐ ܕܢܬܦܬܚ \"{file}\". ܐܫܬܢܝ، ܐܫܬܚܠܦ ܫܡܗ ܐܘ ܐܬܥܛܝ ܗܢܐ ܠܦܦܐ؟"
+    },
+    "encryptionDisabledNotice": {
+      "title": "ܛܘܫܝܐ ܕܥܝܟ",
+      "content": "ܡܡܠܠܐ ܗܫܐ ܗܘܐ ܒܐܝܕ ܦܪܘܛܘܩܘܠ HTTP ܠܐ ܡܛܫܝܐ. ܕܬܦܠܘܚ ܒܦܪܘܛܘܩܘܠ HTTPS، ܐܕܠܩ ܛܘܫܝܐ ܬܘܒ."
+    },
+    "errorDialog": {
+      "title": "@:general.error"
+    },
+    "favoriteDialog": {
+      "title": "ܚܒܝ̈ܒܐ",
+      "noFavorites": "ܠܝܬ ܥܕܡܐ ܠܗܫܐ ܡܐܢ̈ܐ ܚܒܝ̈ܒܐ.",
+      "addFavorite": "ܐܘܣܦ"
+    },
+    "favoriteDeleteDialog": {
+      "title": "ܥܛܝ ܡܢ ܚܒܝ̈ܒܐ",
+      "content": "ܫܪܝܪܐܝܬ ܨܒܐ ܐܢܬ ܕܬܥܛܐ \"{name}\" ܡܢ ܚܒܝ̈ܒܐ؟"
+    },
+    "favoriteEditDialog": {
+      "titleAdd": "ܐܘܣܦ ܠܚܒܝ̈ܒܐ",
+      "titleEdit": "ܛܘܝܒ̈ܐ",
+      "name": "ܫܡܐ ܕܡܐܢܐ",
+      "auto": "(ܡܢ ܢܦܫܗ)",
+      "ip": "ܡܘܢܥܐ IP",
+      "port": "ܬܪܥܐ"
+    },
+    "fileInfo": {
+      "title": "ܝܕ̈ܥܬܐ ܕܠܦܦܐ",
+      "fileName": "ܫܡܐ ܕܠܦܦܐ:",
+      "path": "ܫܒܝܠܐ:",
+      "size": "ܡܫܘܚܬܐ:",
+      "sender": "ܡܫܕܪܢܐ:",
+      "time": "ܙܒܢܐ:"
+    },
+    "fileNameInput": {
+      "title": "ܟܬܘܒ ܫܡܐ ܕܠܦܦܐ",
+      "original": "ܫܪܫܝܐ: {original}"
+    },
+    "historyClearDialog": {
+      "title": "ܕܟܝ ܬܫܥܝܬܐ",
+      "content": "ܫܪܝܪܐܝܬ ܨܒܐ ܐܢܬ ܕܬܥܛܐ ܟܠܗ̇ ܬܫܥܝܬܐ؟"
+    },
+    "localNetworkUnauthorized": {
+      "title": "@:dialogs.noPermission.title",
+      "description": "LocalSend ܠܐ ܡܨܐ ܕܢܫܟܚ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ ܕܠܐ ܐܦܣܘܬܐ ܕܒܨܝܐ ܕܡܨܝܕܬܐ ܐܬܪܝܬܐ. ܗܒ ܗܕܐ ܐܦܣܘܬܐ ܒܛܘܝܒ̈ܐ.",
+      "gotoSettings": "ܛܘܝܒ̈ܐ"
+    },
+    "messageInput": {
+      "title": "ܟܬܘܒ ܐܓܪܬܐ",
+      "multiline": "ܣܓܝܐܬ ܣܪ̈ܛܐ"
+    },
+    "noFiles": {
+      "title": "ܠܐ ܐܬܓܒܝ ܠܦܦܐ",
+      "content": "ܓܒܝ ܠܦܚܬ ܚܕ ܠܦܦܐ."
+    },
+    "noPermission": {
+      "title": "ܠܝܬ ܐܦܣܘܬܐ",
+      "content": "ܠܐ ܝܗܒܬ ܐܦܣܘ̈ܬܐ ܕܣܢܝܩܢ. ܗܒ ܐܢܝܢ ܒܛܘܝܒ̈ܐ."
+    },
+    "notAvailableOnPlatform": {
+      "title": "ܠܐ ܐܝܬܝܗ̇",
+      "content": "ܗܢܐ ܣܘܥܪܢܐ ܐܝܬܘܗܝ ܒܠܚܘܕ ܥܠ:"
+    },
+    "qr": {
+      "title": "ܩܘܕ QR"
+    },
+    "quickActions": {
+      "title": "ܣܘܥܪ̈ܢܐ ܥܓܠ̈ܐ",
+      "counter": "ܡܢܝܢܐ",
+      "prefix": "ܩܕܡܝܘܬܐ",
+      "padZero": "ܡܠܝ ܒܨܦܪ̈ܐ",
+      "sortBeforeCount": "ܣܕܪ ܐܝܟ ܐܠܦܒܝܬ ܡܢ ܩܕܡ (A-Z)",
+      "random": "ܓܕܫܢܝܐ"
+    },
+    "quickSaveNotice": {
+      "title": "@:general.quickSave",
+      "content": "ܒܥܘ̈ܬܐ ܕܠܦ̈ܦܐ ܗܫܐ ܡܬܩܒܠܢ ܡܢ ܢܦܫܗܝܢ. ܙܗܝܪ ܗܘܝ ܕܟܠ ܐܢܫ ܕܒܡܨܝܕܬܐ ܐܬܪܝܬܐ ܡܨܐ ܕܢܫܕܪ ܠܟ ܠܦ̈ܦܐ."
+    },
+    "quickSaveFromFavoritesNotice": {
+      "title": "@:general.quickSaveFromFavorites",
+      "content": [
+        "ܒܥܘ̈ܬܐ ܕܠܦ̈ܦܐ ܗܫܐ ܡܬܩܒܠܢ ܡܢ ܢܦܫܗܝܢ ܡܢ ܡܐܢ̈ܐ ܕܒܣܕܪܐ ܕܚܒܝ̈ܒܐ ܕܝܠܟ."
+      ]
+    },
+    "pin": {
+      "title": "ܟܬܘܒ PIN"
+    },
+    "sendModeHelp": {
+      "title": "ܙܢ̈ܐ ܕܫܘܕܪܐ",
+      "single": "ܡܫܕܪ ܠܦ̈ܦܐ ܠܡܩܒܠܢܐ ܚܕ. ܓܒܝܬܐ ܬܬܕܟܐ ܒܬܪ ܕܫܠܡ ܫܘܢܝܐ ܕܠܦ̈ܦܐ.",
+      "multiple": "ܡܫܕܪ ܠܦ̈ܦܐ ܠܡܩܒܠܢ̈ܐ ܣܓܝ̈ܐܐ. ܓܒܝܬܐ ܠܐ ܬܬܕܟܐ ܒܬܪ ܕܫܠܡ ܫܘܢܝܐ ܕܠܦ̈ܦܐ.",
+      "link": "ܡܩܒܠܢ̈ܐ ܕܠܐ ܐܝܬ ܠܗܘܢ LocalSend ܡܨܝܢ ܕܢܚܬܘܢ ܠܦ̈ܦܐ ܓܒܝ̈ܐ ܟܕ ܦܬܚܝܢ ܐܣܘܪܐ ܒܒܪܐܘܙܪ ܕܝܠܗܘܢ."
+    },
+    "zoom": {
+      "title": "URL"
+    }
+  },
+  "sanitization": {
+    "empty": "ܫܡܐ ܕܠܦܦܐ ܠܐ ܡܫܟܚ ܕܢܗܘܐ ܣܦܝܩܐ",
+    "invalid": "ܫܡܐ ܕܠܦܦܐ ܐܝܬ ܒܗ ܐܬܘ̈ܬܐ ܠܐ ܫܪܝܪ̈ܬܐ"
+  },
+  "tray": {
+    "open": "@:general.open",
+    "close": "ܦܘܩ ܡܢ LocalSend",
+    "closeWindows": "ܦܘܩ"
+  },
+  "web": {
+    "waiting": "@:sendPage.waiting",
+    "enterPin": "ܟܬܘܒ PIN",
+    "invalidPin": "PIN ܠܐ ܫܪܝܪܐ",
+    "tooManyAttempts": "ܢܣܝܘܢ̈ܐ ܣܓܝ̈ܐܐ ܛܒ",
+    "rejected": "ܣܠܝܐ",
+    "files": "ܠܦ̈ܦܐ",
+    "fileName": "ܫܡܐ ܕܠܦܦܐ",
+    "size": "ܡܫܘܚܬܐ"
+  },
+  "assetPicker": {
+    "confirm": "ܫܪܪ",
+    "cancel": "ܒܛܠ",
+    "edit": "ܬܩܢ",
+    "gifIndicator": "GIF",
+    "loadFailed": "ܛܥܝܢܐ ܠܐ ܐܬܓܡܪ",
+    "original": "ܫܪܫܝܐ",
+    "preview": "ܚܙܬܐ ܩܕܡܝܬܐ",
+    "select": "ܓܒܝ",
+    "emptyList": "ܣܕܪܐ ܣܦܝܩܐ",
+    "unSupportedAssetType": "ܓܢܣܐ ܕܠܦܦܐ ܠܐ ܡܣܬܡܟ.",
+    "unableToAccessAll": "ܠܐ ܡܨܐ ܕܢܡܛܐ ܠܟܠܗܘܢ ܠܦ̈ܦܐ ܕܒܡܐܢܐ",
+    "viewingLimitedAssetsTip": "ܚܙܝ ܒܠܚܘܕ ܠܦ̈ܦܐ ܘܐܠܒܘ̈ܡܐ ܕܡܦܠܚܢܘܬܐ ܡܨܝܐ ܕܬܡܛܐ ܠܗܘܢ.",
+    "changeAccessibleLimitedAssets": "ܢܩܘܫ ܠܚܘܕܬܐ ܕܠܦ̈ܦܐ ܕܡܬܡܛܝܢ",
+    "accessAllTip": "ܡܦܠܚܢܘܬܐ ܡܨܝܐ ܕܬܡܛܐ ܒܠܚܘܕ ܠܩܨܬ ܠܦ̈ܦܐ ܕܒܡܐܢܐ. ܙܠ ܠܛܘܝܒ̈ܐ ܕܛܟܣܐ ܘܐܦܣ ܠܡܦܠܚܢܘܬܐ ܕܬܡܛܐ ܠܟܠܗ ܡܝܕܝܐ ܕܒܡܐܢܐ.",
+    "goToSystemSettings": "ܙܠ ܠܛܘܝܒ̈ܐ ܕܛܟܣܐ",
+    "accessLimitedAssets": "ܐܡܢ ܥܡ ܡܛܝܬܐ ܡܬܚܡܬܐ",
+    "accessiblePathName": "ܠܦ̈ܦܐ ܕܡܬܡܛܝܢ",
+    "sTypeAudioLabel": "ܩܠܐ",
+    "sTypeImageLabel": "ܨܘܪܬܐ",
+    "sTypeVideoLabel": "ܘܝܕܝܘ",
+    "sTypeOtherLabel": "ܡܝܕܝܐ ܐܚܪܢܐ",
+    "sActionPlayHint": "ܢܓܢ",
+    "sActionPreviewHint": "ܚܙܬܐ ܩܕܡܝܬܐ",
+    "sActionSelectHint": "ܓܒܝ",
+    "sActionSwitchPathLabel": "ܫܚܠܦ ܫܒܝܠܐ",
+    "sActionUseCameraHint": "ܦܠܘܚ ܒܟܡܪܐ",
+    "sNameDurationLabel": "ܐܘܪܟܐ",
+    "sUnitAssetCountLabel": "ܡܢܝܢܐ"
+  }
+}

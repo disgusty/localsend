@@ -1,0 +1,579 @@
+{
+  "appName": "OldySend",
+  "general": {
+    "accept": "I ACCEPTZ",
+    "accepted": "ACCEPTD",
+    "add": "ADD MOAR",
+    "advanced": "ADVANCD STUFFZ",
+    "cancel": "NOPE",
+    "close": "CLOZE",
+    "confirm": "YESH, SRSLY",
+    "continueStr": "KEEP GOIN",
+    "copy": "COPEH",
+    "copiedToClipboard": "COPIED 2 TEH CLIPBORD",
+    "decline": "NO WANT",
+    "done": "DUN",
+    "delete": "DELETZ",
+    "edit": "EDITZ",
+    "error": "OH NOES! ERROR",
+    "example": "EGZAMPUL",
+    "files": "FILEZ",
+    "finished": "ALL DUN",
+    "hide": "HIDEZ (LIEK UNDR BOX)",
+    "off": "OFF",
+    "offline": "NAPPIN (OFFLINE)",
+    "on": "ON",
+    "online": "AWAKE (ONLINE)",
+    "open": "OPEN",
+    "queue": "LINE OF KITTEHS (QUEUE)",
+    "quickSave": "QUIK SAVE",
+    "quickSaveFromFavorites": "QUIK SAVE 4 \"FAVORITZ\"",
+    "renamed": "RENAMD",
+    "reset": "UNDO CHANGEZ",
+    "restart": "RESTARTZ",
+    "settings": "SETTINZ",
+    "skipped": "SKIPPD",
+    "start": "START",
+    "stop": "STAHP",
+    "save": "SAEV",
+    "unchanged": "NOT CHANGD",
+    "unknown": "IDK",
+    "noItemInClipboard": "NUTHIN IN TEH CLIPBORD."
+  },
+  "receiveTab": {
+    "title": "I CAN HAZ",
+    "infoBox": {
+      "ip": "IP:",
+      "port": "PORT:",
+      "alias": "DEVICE NAEM:"
+    },
+    "quickSave": {
+      "off": "@:general.off",
+      "favorites": "FAVORITZ",
+      "on": "@:general.on"
+    },
+    "link": "I CAN HAZ VIA LINK"
+  },
+  "sendTab": {
+    "title": "SENDZ",
+    "selection": {
+      "title": "STUFFZ I PICKD",
+      "files": "FILEZ: {files}",
+      "size": "HOW BIG: {size}"
+    },
+    "picker": {
+      "file": "FILE",
+      "folder": "FOLDR",
+      "media": "PIKCHURS",
+      "text": "TEXT",
+      "app": "APP",
+      "clipboard": "PASTE"
+    },
+    "shareIntentInfo": "U CAN ALSO USE TEH \"SHARE\" FEECHUR OF UR PHONE 2 PICK FILEZ MOAR EASY.",
+    "nearbyDevices": "DEVICEZ NEARBY",
+    "thisDevice": "DIS DEVICE",
+    "scan": "SNIFF 4 DEVICEZ",
+    "manualSending": "SEND BY PAW (MANUAL)",
+    "sendMode": "SEND MODE",
+    "sendModes": {
+      "single": "ONE KITTEH GETZ IT",
+      "multiple": "MANY KITTEHS GETZ IT",
+      "link": "SHARE VIA LINK"
+    },
+    "sendModeHelp": "WAT DIS?",
+    "help": "PLZ MAEK SURE TEH OTHR DEVICE IZ ON TEH SAME WI-FI, KTHX.",
+    "placeItems": "DROP STUFFZ HERE 2 SHARE (LIEK KNOCKIN THINGZ OFF TABLE)."
+  },
+  "settingsTab": {
+    "title": "SETTINZ",
+    "general": {
+      "title": "GENERUL",
+      "brightness": "THEEM",
+      "brightnessOptions": {
+        "system": "SYSTEM",
+        "dark": "DARK (LIEK 3AM ZOOMIES)",
+        "light": "LITE (LIEK SUNBEAM)"
+      },
+      "color": "KOLOR",
+      "colorOptions": {
+        "system": "SYSTEM",
+        "oled": "OLED",
+        "custom": "MAI OWN"
+      },
+      "language": "LANGWIDGE",
+      "languageOptions": {
+        "system": "SYSTEM"
+      },
+      "saveWindowPlacement": "REMEMBR WINDOW SPOT AFTR QUIT",
+      "saveWindowPlacementWindows": "REMEMBR WINDOW SPOT AFTR EXIT",
+      "alwaysOnTop": "ALWAYZ ON TOP (LIEK ME ON UR KEYBORD)",
+      "alwaysOnTopUnavailable": "NO WERK ON WAYLAND, SRY",
+      "minimizeToTray": "HIDE IN SYSTEM TRAY/MENU BAR WEN CLOZIN",
+      "launchAtStartup": "WAKE UP AFTR LOGIN (AUTOSTART)",
+      "launchMinimized": "AUTOSTART: START HIDDEN",
+      "showInContextMenu": "SHOW OLDYSEND IN CONTEXT MENU",
+      "animations": "WIGGLEZ (ANIMASHUNS)"
+    },
+    "receive": {
+      "title": "I CAN HAZ",
+      "quickSave": "@:general.quickSave",
+      "quickSaveFromFavorites": "@:general.quickSaveFromFavorites",
+      "requirePin": "@:webSharePage.requirePin",
+      "autoFinish": "AUTO FINISH",
+      "destination": "SAEV 2 FOLDR",
+      "downloads": "(DOWNLOADZ)",
+      "saveToGallery": "SAEV PIKCHURS 2 GALLERY",
+      "saveToHistory": "SAEV 2 HISTOREH",
+      "verifyChecksums": "CHEK CHECKSUMZ WEN GETTIN FILEZ"
+    },
+    "send": {
+      "title": "SENDZ",
+      "shareViaLinkAutoAccept": "AUTO ACCEPT REQUESTZ IN \"SHARE VIA LINK\" MODE",
+      "createChecksums": "MAEK CHECKSUMZ WEN SENDIN FILEZ"
+    },
+    "network": {
+      "title": "NETWERK",
+      "needRestart": "RESTART TEH SERVR 2 APPLY TEH SETTINZ! SRSLY!",
+      "server": "SERVR",
+      "alias": "DEVICE NAEM",
+      "deviceType": "DEVICE TYPE",
+      "deviceModel": "DEVICE MODUL",
+      "port": "PORT",
+      "network": "NETWERK",
+      "networkOptions": {
+        "all": "ALL OF DEM",
+        "filtered": "FILTURD"
+      },
+      "discoveryTimeout": "SNIFFIN TIMEOUT",
+      "useSystemName": "USE SYSTEM NAEM",
+      "generateRandomAlias": "GIMME RANDOM NAEM",
+      "portWarning": "OTHR DEVICEZ MITE NOT FIND U COZ U USIN CUSTOM PORT. (DEFAULT: {defaultPort})",
+      "encryption": "SEEKRIT MODE (ENCRYPSHUN)",
+      "multicastGroup": "MULTICAST ADDRESS",
+      "multicastGroupWarning": "OTHR DEVICEZ MITE NOT FIND U COZ U USIN CUSTOM MULTICAST ADDRESS. (DEFAULT: {defaultMulticast})"
+    },
+    "other": {
+      "title": "OTHR STUFFZ",
+      "support": "SUPPORT LOCALSEND",
+      "donate": "GIV CHEEZBURGR MONIES",
+      "privacyPolicy": "PRIVACEH POLICEH",
+      "termsOfUse": "TERMZ OF USE"
+    },
+    "advancedSettings": "ADVANCD SETTINZ"
+  },
+  "troubleshootPage": {
+    "title": "HALP! (TROUBLESHOOT)",
+    "subTitle": "APP NO WERK LIEK U EXPECT? HERE U CAN FIND SUM COMMON FIXEZ.",
+    "solution": "FIX:",
+    "fixButton": "FIX IT 4 ME PLZ",
+    "firewall": {
+      "symptom": "DIS DEVICE CAN SEND FILEZ 2 OTHR DEVICEZ BUT OTHR DEVICEZ CANNOT SEND FILEZ 2 DIS DEVICE.",
+      "solution": "PROBABLY TEH FIREWALL IZ BLOKKIN. U CAN FIX DIS BY ALLOWIN INCOMIN CONNECSHUNZ (UDP AN TCP) ON PORT {port}.",
+      "openFirewall": "OPEN FIREWALL"
+    },
+    "noDiscovery": {
+      "symptom": "DIS DEVICE CANNOT FIND OTHR DEVICEZ.",
+      "solution": "PLZ MAEK SURE ALL DEVICEZ R ON TEH SAME WI-FI AN HAZ TEH SAME CONFIG (PORT, MULTICAST ADDRESS, ENCRYPSHUN). U CAN TRY 2 TYPE TEH IP ADDRESS OF TEH OTHR DEVICE BY PAW. IF DAT WERKZ, ADD DIS DEVICE 2 FAVORITZ SO IT GETZ FOUND AUTOMATIC NEXT TIEM."
+    },
+    "noConnection": {
+      "symptom": "BOTH DEVICEZ CANNOT FIND EACH OTHR AN CANNOT SHARE FILEZ.",
+      "solution": "IZ TEH PROBLEM ON BOTH SIDEZ? IF YES, MAEK SURE BOTH DEVICEZ R ON TEH SAME WI-FI AN HAZ TEH SAME CONFIG (PORT, MULTICAST ADDRESS, ENCRYPSHUN). TEH WI-FI MITE NOT LET DEVICEZ TALK COZ OF ACCESS POINT (AP) ISOLASHUN. IN DAT CASE, TURN DIS OPSHUN OFF ON TEH ROUTR."
+    }
+  },
+  "networkInterfacesPage": {
+    "title": "NETWERK INTERFACEZ",
+    "info": "BY DEFAULT, OLDYSEND USEZ ALL TEH NETWERK INTERFACEZ. U CAN EXCLUDE NETWERKZ U NO WANT HERE. U NEED 2 RESTART TEH SERVR 2 APPLY TEH CHANGEZ.",
+    "preview": "SNEAK PEEK",
+    "whitelist": "GUD LIST (WHITELIST)",
+    "blacklist": "BAD LIST (BLACKLIST)"
+  },
+  "receiveHistoryPage": {
+    "title": "HISTOREH",
+    "openFolder": "OPEN FOLDR",
+    "deleteHistory": "DELETZ HISTOREH",
+    "empty": "TEH HISTOREH IZ EMPTEH. LIEK MAI FOOD BOWL.",
+    "entryActions": {
+      "open": "OPEN FILE",
+      "showInFolder": "SHOW IN FOLDR",
+      "info": "INFORMASHUN",
+      "deleteFromHistory": "DELETZ FROM HISTOREH"
+    }
+  },
+  "apkPickerPage": {
+    "title": "APPZ (APK)",
+    "excludeSystemApps": "HIDE SYSTEM APPZ",
+    "excludeAppsWithoutLaunchIntent": "HIDE APPZ U CANNOT LAUNCH",
+    "apps": "{n} APPZ"
+  },
+  "selectedFilesPage": {
+    "deleteAll": "DELETZ ALL"
+  },
+  "deviceDetailsPage": {
+    "title": "DEVICE DETAILZ",
+    "favorite": "FAVORIT",
+    "verify": "VERIFEH",
+    "info": {
+      "name": "NAEM",
+      "address": "ADDRESS",
+      "version": "VERSHUN",
+      "protocol": "PROTOCOL v{version}"
+    },
+    "logs": {
+      "title": "LOGZ",
+      "empty": "NO LOGZ. NUTHIN 2 SEE HERE.",
+      "discovered": "SNIFFD OUT VIA {protocol} ({host})",
+      "updated": "UPDATD VIA {protocol} ({host})"
+    }
+  },
+  "verifyPage": {
+    "title": "VERIFEH",
+    "icons": "ICONZ",
+    "text": "TEXT",
+    "question": "DOES IT LOOK TEH SAME ON TEH OTHR DEVICE?"
+  },
+  "receivePage": {
+    "subTitle": {
+      "one": "WANTZ 2 SEND U A FILE",
+      "other": "WANTZ 2 SEND U {n} FILEZ"
+    },
+    "subTitleMessage": "SENT U A MESSAGE:",
+    "subTitleLink": "SENT U A LINK:",
+    "canceled": "TEH SENDR CANCELD TEH REQUEST. NO FILEZ 4 U."
+  },
+  "receiveOptionsPage": {
+    "title": "OPSHUNZ",
+    "destination": "@:settingsTab.receive.destination",
+    "appDirectory": "(OLDYSEND FOLDR)",
+    "saveToGallery": "@:settingsTab.receive.saveToGallery",
+    "saveToGalleryOff": "TURND OFF AUTOMATIC COZ THAR R FOLDRZ."
+  },
+  "sendPage": {
+    "calculatingChecksum": "COUNTIN CHECKSUM ({curr} / {n})",
+    "waiting": "WAITIN 4 ANSWR…",
+    "rejected": "TEH RECIPIENT SED NO WANT.",
+    "tooManyAttempts": "@:web.tooManyAttempts",
+    "busy": "TEH RECIPIENT IZ BIZEH WIF ANOTHR REQUEST."
+  },
+  "progressPage": {
+    "titleSending": "SENDIN FILEZ",
+    "titleReceiving": "GETTIN FILEZ",
+    "savedToGallery": "SAEVD IN FOTOS",
+    "total": {
+      "title": {
+        "sending": "TOTAL PROGRES ({time})",
+        "finishedError": "DUN, BUT WIF ERROR. OH NOES",
+        "canceledSender": "CANCELD BY SENDR",
+        "canceledReceiver": "CANCELD BY RECEIVR"
+      },
+      "count": "FILEZ: {curr} / {n}",
+      "size": "SIZE: {curr} / {n}",
+      "speed": "ZOOMIES: {speed}/s"
+    },
+    "remainingTime": {
+      "minutesUnit(plural, param=m)": {
+        "other": "{m}m"
+      },
+      "hoursUnit(plural, param=h)": {
+        "other": "{h}h"
+      },
+      "minutes": "{m}:{ss}",
+      "hours": "@:.hoursUnit @:.minutesUnit"
+    }
+  },
+  "webSharePage": {
+    "title": "SHARE VIA LINK",
+    "loading": "STARTIN SERVR…",
+    "stopping": "STOPPIN SERVR…",
+    "error": "OH NOES! SUMTHIN BROKE WHILE STARTIN TEH SERVR.",
+    "openLink": {
+      "one": "OPEN DIS LINK IN UR BROWSR:",
+      "other": "OPEN ONE OF DEZE LINKZ IN UR BROWSR:"
+    },
+    "requests": "REQUESTZ",
+    "noRequests": "NO REQUESTZ YET.",
+    "encryption": "@:settingsTab.network.encryption",
+    "autoAccept": "AUTO ACCEPT REQUESTZ",
+    "requirePin": "NEED PIN",
+    "pinHint": "TEH PIN IZ \"{pin}\"",
+    "encryptionHint": "OLDYSEND USEZ A SELF-SIGND CERTIFICATE. U NEED 2 ACCEPT IT IN UR BROWSR.",
+    "pendingRequests": "REQUESTZ WAITIN: {n}"
+  },
+  "webReceivePage": {
+    "title": "I CAN HAZ VIA LINK"
+  },
+  "aboutPage": {
+    "title": "ABOUT OLDYSEND",
+    "description": [
+      "OLDYSEND IZ A FREE, OPEN-SOURCE APP DAT LETZ U SAFELY SHARE FILEZ AN MESSAGEZ WIF DEVICEZ NEARBY OVR UR LOCAL NETWERK. NO INTERNETZ NEEDED. LIEK AN INVISIBLE BIKEH 4 FILEZ.",
+      "DIS APP IZ AVAILABUL ON ANDROID, iOS, macOS, WINDOWZ AN LINUX. U CAN FIND ALL DOWNLOAD OPSHUNZ ON TEH OFFISHUL HOMEPAGE."
+    ],
+    "author": "AUTHR",
+    "contributors": "HELPFUL KITTEHS (CONTRIBUTORZ)",
+    "packagers": "BOX KITTEHS (PACKAGERZ)",
+    "translators": "TRANSLAYTORZ"
+  },
+  "donationPage": {
+    "title": "GIV CHEEZBURGR MONIES",
+    "info": "LOCALSEND IZ FREE, OPEN-SOURCE AN HAZ NO ADZ. IF U LIEK TEH APP, U CAN SUPPORT TEH DEVELOPMENT WIF A DONASHUN.",
+    "donate": "DONATE {amount}",
+    "thanks": "THX VRY MUCH! KTHXBAI!",
+    "restore": "RESTORE PURCHASE"
+  },
+  "changelogPage": {
+    "title": "WAT CHANGD (CHANGELOG)"
+  },
+  "whatsNewPage": {
+    "title": "WATS NEW IN {version}",
+    "changes(interface=WhatsNewStrings)": {
+      "v1_18_0": {
+        "changes": [
+          "ENCRYPSHUN NO LONGR SLOWZ DOWN TRANSFERZ. IT WUZ TURND BAK ON 4 DIS DEVICE IF U TURND IT OFF BEFORE.",
+          "REQUESTZ FROM FAVORITZ R NOW ACCEPTD AUTOMATIC. DIS IZ ON BY DEFAULT AN CAN BE TURND OFF IN TEH SETTINZ.",
+          "ON ANDROID, TRANSFERZ KEEP GOIN WHILE TEH APP IZ IN TEH BAKGROUND OR TEH SCREEN IZ OFF. ON iOS, TEH APP MUST STILL STAY IN FRONT."
+        ]
+      }
+    }
+  },
+  "aliasGenerator(ignoreMissing, ignoreGpt)": {
+    "@info": "Different locales may have different words, it may not match 1:1",
+    "adjectives": [
+      "Adorbz",
+      "Purrty",
+      "Chonky",
+      "Shiny",
+      "Licked",
+      "Sneaky",
+      "Kool",
+      "Fluffeh",
+      "Ceiling",
+      "Hungreh",
+      "Zoomie",
+      "Lazeh",
+      "Fantastik",
+      "Speedeh",
+      "Fien",
+      "Freshie",
+      "Gud",
+      "Gorjus",
+      "Grate",
+      "Handsum",
+      "Warm",
+      "Nice",
+      "Luvly",
+      "Mystik",
+      "Neet",
+      "Smol",
+      "Sleepeh",
+      "Pretteh",
+      "Powrful",
+      "Rich",
+      "Seekrit",
+      "Smart",
+      "Solid",
+      "Speshul",
+      "Basement",
+      "Strong",
+      "Tidy",
+      "Wize"
+    ],
+    "fruits": [
+      "Cheezburger",
+      "Kitteh",
+      "Bukkit",
+      "Walrus",
+      "Mouse",
+      "Yarn",
+      "Tuna",
+      "Box",
+      "Catnip",
+      "Nom",
+      "Bikeh",
+      "Lazor",
+      "Fishie",
+      "Sunbeam",
+      "Toe Beanz",
+      "Hairball",
+      "Cookie",
+      "Pizza",
+      "Taco",
+      "Purr",
+      "Whisker",
+      "Cheez",
+      "Kibble",
+      "Sock",
+      "Biskit",
+      "Floof"
+    ],
+    "combination": "{adjective} {fruit}",
+    "@combination": "In some languages, the adjective must be last."
+  },
+  "dialogs": {
+    "addFile": {
+      "title": "ADD 2 STUFFZ I PICKD",
+      "content": "WAT U WANT 2 ADD?"
+    },
+    "openFile": {
+      "title": "OPEN FILE",
+      "content": "U WANT 2 OPEN TEH FILE U GOTZ?"
+    },
+    "addressInput": {
+      "title": "TYPE ADDRESS",
+      "hashtag": "HASHTAG",
+      "ip": "IP ADDRESS",
+      "recentlyUsed": "USD RECENTLEH: "
+    },
+    "cancelSession": {
+      "title": "CANCEL FILEZ TRANSFR",
+      "content": "U SRSLY WANT 2 CANCEL TEH FILEZ TRANSFR?"
+    },
+    "cannotOpenFile": {
+      "title": "CANNOT OPEN FILE",
+      "content": "COULD NOT OPEN \"{file}\". WUZ DIS FILE MOVD, RENAMD OR DELETD? (NOT ME, I SWEAR)"
+    },
+    "encryptionDisabledNotice": {
+      "title": "SEEKRIT MODE OFF",
+      "content": "TALKIN NOW HAPPENZ VIA UNENCRYPTD HTTP PROTOCOL. 2 USE HTTPS, TURN ON ENCRYPSHUN AGAIN."
+    },
+    "errorDialog": {
+      "title": "@:general.error"
+    },
+    "favoriteDialog": {
+      "title": "FAVORITZ",
+      "noFavorites": "NO FAVORIT DEVICEZ YET.",
+      "addFavorite": "ADD"
+    },
+    "favoriteDeleteDialog": {
+      "title": "DELETZ FROM FAVORITZ",
+      "content": "U SRSLY WANT 2 DELETZ \"{name}\" FROM FAVORITZ?"
+    },
+    "favoriteEditDialog": {
+      "titleAdd": "ADD 2 FAVORITZ",
+      "titleEdit": "SETTINZ",
+      "name": "DEVICE NAEM",
+      "auto": "(AUTO)",
+      "ip": "IP ADDRESS",
+      "port": "PORT"
+    },
+    "fileInfo": {
+      "title": "FILE INFORMASHUN",
+      "fileName": "FILE NAEM:",
+      "path": "PATH:",
+      "size": "SIZE:",
+      "sender": "SENDR:",
+      "time": "TIEM:"
+    },
+    "fileNameInput": {
+      "title": "TYPE FILE NAEM",
+      "original": "ORIGINUL: {original}"
+    },
+    "historyClearDialog": {
+      "title": "CLEAR HISTOREH",
+      "content": "U SRSLY WANT 2 DELETZ TEH WHOLE HISTOREH?"
+    },
+    "localNetworkUnauthorized": {
+      "title": "@:dialogs.noPermission.title",
+      "description": "OLDYSEND CANNOT FIND OTHR DEVICEZ WITHOUT PERMISHUN 2 SCAN TEH LOCAL NETWERK. PLZ GIV DIS PERMISHUN IN TEH SETTINZ.",
+      "gotoSettings": "SETTINZ"
+    },
+    "messageInput": {
+      "title": "TYPE MESSAGE",
+      "multiline": "MANY LINEZ"
+    },
+    "noFiles": {
+      "title": "NO FILEZ PICKD",
+      "content": "PLZ PICK AT LEAST ONE FILE."
+    },
+    "noPermission": {
+      "title": "NO PERMISHUN",
+      "content": "U NO GIV TEH PERMISHUNZ I NEEDZ. PLZ GIV DEM IN TEH SETTINZ."
+    },
+    "notAvailableOnPlatform": {
+      "title": "NOT AVAILABUL",
+      "content": "DIS FEECHUR IZ ONLY ON:"
+    },
+    "qr": {
+      "title": "QR CODE"
+    },
+    "quickActions": {
+      "title": "QUIK AKSHUNZ",
+      "counter": "COUNTR",
+      "prefix": "PREFIX",
+      "padZero": "PAD WIF ZEROZ",
+      "sortBeforeCount": "SORT ALFABETICAL FIRST (A-Z)",
+      "random": "RANDUM"
+    },
+    "quickSaveNotice": {
+      "title": "@:general.quickSave",
+      "content": "FILE REQUESTZ R NOW ACCEPTD AUTOMATIC. WATCH OUT: EVRYBODY ON TEH LOCAL NETWERK CAN SEND U FILEZ."
+    },
+    "quickSaveFromFavoritesNotice": {
+      "title": "@:general.quickSaveFromFavorites",
+      "content": [
+        "FILE REQUESTZ FROM DEVICEZ IN UR FAVORITZ LIST R NOW ACCEPTD AUTOMATIC."
+      ]
+    },
+    "pin": {
+      "title": "TYPE PIN"
+    },
+    "sendModeHelp": {
+      "title": "SEND MODEZ",
+      "single": "SENDZ FILEZ 2 ONE RECIPIENT. STUFFZ U PICKD GETZ CLEARD AFTR TEH TRANSFR IZ DUN.",
+      "multiple": "SENDZ FILEZ 2 MANY RECIPIENTZ. STUFFZ U PICKD DOES NOT GET CLEARD AFTR TEH TRANSFR IZ DUN.",
+      "link": "RECIPIENTZ WHO NO HAZ OLDYSEND CAN DOWNLOAD TEH PICKD FILEZ BY OPENIN TEH LINK IN THEIR BROWSR."
+    },
+    "zoom": {
+      "title": "URL"
+    }
+  },
+  "sanitization": {
+    "empty": "FILE NAEM CANNOT BE EMPTEH",
+    "invalid": "FILE NAEM HAZ BAD CHARACTRZ IN IT"
+  },
+  "tray": {
+    "@info": "Apple Guidelines are very strict about the \"close\" wording.",
+    "open": "@:general.open",
+    "close": "QUIT OLDYSEND, KTHXBAI",
+    "closeWindows": "EXIT"
+  },
+  "web": {
+    "waiting": "@:sendPage.waiting",
+    "enterPin": "TYPE PIN PLZ",
+    "invalidPin": "WRONG PIN. NO CHEEZBURGR 4 U",
+    "tooManyAttempts": "2 MANY TRIEZ",
+    "rejected": "NO WANT (REJECTD)",
+    "files": "FILEZ",
+    "fileName": "FILE NAEM",
+    "size": "SIZE"
+  },
+  "assetPicker": {
+    "@info": "Translations for the Media selection tool for Android and iPhone",
+    "confirm": "YESH",
+    "cancel": "NOPE",
+    "edit": "EDITZ",
+    "gifIndicator": "GIF",
+    "loadFailed": "OH NOES, LOAD FAILD",
+    "original": "ORIGINUL",
+    "preview": "SNEAK PEEK",
+    "select": "PICK",
+    "emptyList": "EMPTEH LIST",
+    "unSupportedAssetType": "I NO SUPPORT DIS FILE TYPE.",
+    "unableToAccessAll": "CANNOT GET 2 ALL FILEZ ON TEH DEVICE",
+    "viewingLimitedAssetsTip": "ONLY SHOWIN FILEZ AN ALBUMZ TEH APP CAN SEE.",
+    "changeAccessibleLimitedAssets": "CLICK 2 UPDATE FILEZ I CAN SEE",
+    "accessAllTip": "APP CAN ONLY SEE SUM FILEZ ON TEH DEVICE. GO 2 SYSTEM SETTINZ AN LET TEH APP SEE ALL MEDIA ON TEH DEVICE.",
+    "goToSystemSettings": "GO 2 SYSTEM SETTINZ",
+    "accessLimitedAssets": "KEEP GOIN WIF LIMITD ACCESS",
+    "accessiblePathName": "FILEZ I CAN SEE",
+    "sTypeAudioLabel": "MEOWZ (AUDIO)",
+    "sTypeImageLabel": "PIKCHUR",
+    "sTypeVideoLabel": "VIDEO",
+    "sTypeOtherLabel": "OTHR MEDIA",
+    "sActionPlayHint": "play",
+    "sActionPreviewHint": "sneak peek",
+    "sActionSelectHint": "pick",
+    "sActionSwitchPathLabel": "change path",
+    "sActionUseCameraHint": "use camra",
+    "sNameDurationLabel": "how long",
+    "sUnitAssetCountLabel": "how many"
+  }
+}

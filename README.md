@@ -1,3 +1,7 @@
+> **This is OldySend**, a fork of LocalSend for every Android version from 1.0 to 16 with switchable
+> Classic / Holo / Material Design / Material You interfaces. The Android app is in [`oldysend/`](oldysend/README.md);
+> APKs are on the Releases page. Everything below is the upstream LocalSend README.
+
 # LocalSend
 
 [![CI status][ci-badge]][ci-workflow]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material You adaptive icon; the monochrome layer lets Android 13+ tint it with the wallpaper colors. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_md3_bg" />
+    <foreground android:drawable="@drawable/ic_launcher_md3_fg" />
+    <monochrome android:drawable="@drawable/ic_launcher_md3_fg" />
+</adaptive-icon>

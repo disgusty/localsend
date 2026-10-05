@@ -1,0 +1,579 @@
+{
+  "appName": "OldySend",
+  "general": {
+    "accept": "Accept~",
+    "accepted": "Accepted uwu",
+    "add": "Add",
+    "advanced": "Advanced owo",
+    "cancel": "Cancew",
+    "close": "Cwose",
+    "confirm": "Confiwm",
+    "continueStr": "Continue~",
+    "copy": "Copy",
+    "copiedToClipboard": "Copied to Cwipboawd~ nya!",
+    "decline": "Decwine",
+    "done": "Done! uwu",
+    "delete": "Dewete",
+    "edit": "Edit",
+    "error": "Ewwow >w<",
+    "example": "Exampwe",
+    "files": "Fiwes",
+    "finished": "Finished~",
+    "hide": "Hide",
+    "off": "Off",
+    "offline": "Offwine",
+    "on": "On",
+    "online": "Onwine",
+    "open": "Open",
+    "queue": "Queue",
+    "quickSave": "Quick Save",
+    "quickSaveFromFavorites": "Quick Save fow \"Favowites\"",
+    "renamed": "Wenamed",
+    "reset": "Undo changes",
+    "restart": "Westawt",
+    "settings": "Settings",
+    "skipped": "Skipped",
+    "start": "Stawt",
+    "stop": "Stop",
+    "save": "Save",
+    "unchanged": "Unchanged",
+    "unknown": "Unknown owo?",
+    "noItemInClipboard": "No items in Cwipboawd. (。•́︿•̀。)"
+  },
+  "receiveTab": {
+    "title": "Weceive",
+    "infoBox": {
+      "ip": "IP:",
+      "port": "Powt:",
+      "alias": "Device name:"
+    },
+    "quickSave": {
+      "off": "@:general.off",
+      "favorites": "Favowites",
+      "on": "@:general.on"
+    },
+    "link": "Weceive via wink"
+  },
+  "sendTab": {
+    "title": "Send",
+    "selection": {
+      "title": "Sewection",
+      "files": "Fiwes: {files}",
+      "size": "Size: {size}"
+    },
+    "picker": {
+      "file": "Fiwe",
+      "folder": "Fowdew",
+      "media": "Media",
+      "text": "Text",
+      "app": "App",
+      "clipboard": "Paste"
+    },
+    "shareIntentInfo": "You can awso use the \"Shawe\" featuwe of youw mobiwe device to sewect fiwes mowe easiwy~",
+    "nearbyDevices": "Neawby devices",
+    "thisDevice": "This Device",
+    "scan": "Seawch devices owo",
+    "manualSending": "Manuaw sending",
+    "sendMode": "Send mode",
+    "sendModes": {
+      "single": "Singwe wecipient",
+      "multiple": "Muwtipwe wecipients",
+      "link": "Shawe via wink"
+    },
+    "sendModeHelp": "Expwanation",
+    "help": "P-pwease make suwe the tawget is awso on the same Wi-Fi netwowk~",
+    "placeItems": "Pwace items to shawe uwu"
+  },
+  "settingsTab": {
+    "title": "Settings",
+    "general": {
+      "title": "Genewaw",
+      "brightness": "Theme",
+      "brightnessOptions": {
+        "system": "System",
+        "dark": "Dawk",
+        "light": "Wight"
+      },
+      "color": "Cowow",
+      "colorOptions": {
+        "system": "System",
+        "oled": "OWED",
+        "custom": "Custom"
+      },
+      "language": "Wanguage",
+      "languageOptions": {
+        "system": "System"
+      },
+      "saveWindowPlacement": "Save window position aftew quit",
+      "saveWindowPlacementWindows": "Save window position aftew exit",
+      "alwaysOnTop": "Awways on top",
+      "alwaysOnTopUnavailable": "Not suppowted on Waywand (╥﹏╥)",
+      "minimizeToTray": "Minimize to the System Tway/Menu Baw when cwosing",
+      "launchAtStartup": "Autostawt aftew wogin",
+      "launchMinimized": "Autostawt: Stawt hidden",
+      "showInContextMenu": "Show OldySend in context menu",
+      "animations": "Animations ✨"
+    },
+    "receive": {
+      "title": "Weceive",
+      "quickSave": "@:general.quickSave",
+      "quickSaveFromFavorites": "@:general.quickSaveFromFavorites",
+      "requirePin": "@:webSharePage.requirePin",
+      "autoFinish": "Auto Finish",
+      "destination": "Save to fowdew",
+      "downloads": "(Downwoads)",
+      "saveToGallery": "Save media to gawwewy",
+      "saveToHistory": "Save to histowy",
+      "verifyChecksums": "Vewify checksums when weceiving fiwes"
+    },
+    "send": {
+      "title": "Send",
+      "shareViaLinkAutoAccept": "Automaticawwy accept wequests in \"Shawe via wink\" mode",
+      "createChecksums": "Cweate checksums when sending fiwes"
+    },
+    "network": {
+      "title": "Netwowk",
+      "needRestart": "Westawt the sewvew to appwy the settings! >w<",
+      "server": "Sewvew",
+      "alias": "Device name",
+      "deviceType": "Device type",
+      "deviceModel": "Device modew",
+      "port": "Powt",
+      "network": "Netwowk",
+      "networkOptions": {
+        "all": "Aww",
+        "filtered": "Fiwtewed"
+      },
+      "discoveryTimeout": "Discovewy Timeout",
+      "useSystemName": "Use system name",
+      "generateRandomAlias": "Genewate wandom awias",
+      "portWarning": "Othew devices might not find you because you'we using a custom powt. (defauwt: {defaultPort})",
+      "encryption": "Encwyption",
+      "multicastGroup": "Muwticast addwess",
+      "multicastGroupWarning": "Othew devices might not find you because you'we using a custom muwticast addwess. (defauwt: {defaultMulticast})"
+    },
+    "other": {
+      "title": "Othew",
+      "support": "Suppowt LocalSend",
+      "donate": "Donate",
+      "privacyPolicy": "Pwivacy Powicy",
+      "termsOfUse": "Tewms of Use"
+    },
+    "advancedSettings": "Advanced settings"
+  },
+  "troubleshootPage": {
+    "title": "Twoubweshoot",
+    "subTitle": "Does the app not wowk as expected? Hewe you can find some common sowutions to pwobwems~",
+    "solution": "Sowution:",
+    "fixButton": "Fix automaticawwy",
+    "firewall": {
+      "symptom": "This device can send fiwes to othew devices but othew devices cannot send fiwes to this device.",
+      "solution": "This is most wikewy a fiwewaww issue. You can sowve this by awwowing incoming connections (UDP and TCP) on powt {port}.",
+      "openFirewall": "Open Fiwewaww"
+    },
+    "noDiscovery": {
+      "symptom": "This device cannot discovew othew devices. (｡•́︿•̀｡)",
+      "solution": "Pwease make suwe that aww devices awe on the same Wi-Fi netwowk and shawe the same configuwation (powt, muwticast addwess, encwyption). You can twy to type the IP addwess of the tawget device manuawwy. If this wowks, considew adding this device to the favowites so it can be found automaticawwy in the futuwe~"
+    },
+    "noConnection": {
+      "symptom": "Both devices cannot discovew each othew now can they shawe fiwes.",
+      "solution": "Does the pwobwem exist on both sides? If so, you need to make suwe that both devices awe on the same Wi-Fi netwowk and shawe the same configuwation (powt, muwticast addwess, encwyption). The Wi-Fi netwowk may not awwow communication between pawticipants due to Access Point (AP) Isowation. In this case, this option must be disabwed on the woutew."
+    }
+  },
+  "networkInterfacesPage": {
+    "title": "Netwowk Intewfaces",
+    "info": "By defauwt, OldySend uses aww avaiwabwe netwowk intewfaces. You can excwude unwanted netwowks hewe. You need to westawt the sewvew to appwy the changes~",
+    "preview": "Pweview",
+    "whitelist": "Whitewist",
+    "blacklist": "Bwackwist"
+  },
+  "receiveHistoryPage": {
+    "title": "Histowy",
+    "openFolder": "Open fowdew",
+    "deleteHistory": "Dewete histowy",
+    "empty": "The histowy is empty. owo",
+    "entryActions": {
+      "open": "Open fiwe",
+      "showInFolder": "Show in fowdew",
+      "info": "Infowmation",
+      "deleteFromHistory": "Dewete fwom histowy"
+    }
+  },
+  "apkPickerPage": {
+    "title": "Apps (APK)",
+    "excludeSystemApps": "Excwude system apps",
+    "excludeAppsWithoutLaunchIntent": "Excwude non-waunchabwe apps",
+    "apps": "{n} Apps"
+  },
+  "selectedFilesPage": {
+    "deleteAll": "Dewete aww"
+  },
+  "deviceDetailsPage": {
+    "title": "Device Detaiws",
+    "favorite": "Favowite",
+    "verify": "Vewify",
+    "info": {
+      "name": "Name",
+      "address": "Addwess",
+      "version": "Vewsion",
+      "protocol": "Pwotocow v{version}"
+    },
+    "logs": {
+      "title": "Wogs",
+      "empty": "No wogs avaiwabwe.",
+      "discovered": "Discovewed via {protocol} ({host})",
+      "updated": "Updated via {protocol} ({host})"
+    }
+  },
+  "verifyPage": {
+    "title": "Vewify",
+    "icons": "Icons",
+    "text": "Text",
+    "question": "Does it wook the same on the othew device? owo"
+  },
+  "receivePage": {
+    "subTitle": {
+      "one": "wants to send you a fiwe~",
+      "other": "wants to send you {n} fiwes~"
+    },
+    "subTitleMessage": "sent you a message:",
+    "subTitleLink": "sent you a wink:",
+    "canceled": "The sendew has cancewed the wequest. (╥﹏╥)"
+  },
+  "receiveOptionsPage": {
+    "title": "Options",
+    "destination": "@:settingsTab.receive.destination",
+    "appDirectory": "(OldySend fowdew)",
+    "saveToGallery": "@:settingsTab.receive.saveToGallery",
+    "saveToGalleryOff": "Tuwned off automaticawwy because thewe awe fowdews."
+  },
+  "sendPage": {
+    "calculatingChecksum": "Cawcuwating checksum ({curr} / {n})",
+    "waiting": "Waiting fow wesponse… nya",
+    "rejected": "The wecipient has wejected the wequest. >w<",
+    "tooManyAttempts": "@:web.tooManyAttempts",
+    "busy": "The wecipient is busy with anothew wequest."
+  },
+  "progressPage": {
+    "titleSending": "Sending fiwes~",
+    "titleReceiving": "Weceiving fiwes~",
+    "savedToGallery": "Saved in Photos",
+    "total": {
+      "title": {
+        "sending": "Totaw pwogwess ({time})",
+        "finishedError": "Finished with ewwow >w<",
+        "canceledSender": "Cancewed by sendew",
+        "canceledReceiver": "Cancewed by weceivew"
+      },
+      "count": "Fiwes: {curr} / {n}",
+      "size": "Size: {curr} / {n}",
+      "speed": "Speed: {speed}/s"
+    },
+    "remainingTime": {
+      "minutesUnit(plural, param=m)": {
+        "other": "{m}m"
+      },
+      "hoursUnit(plural, param=h)": {
+        "other": "{h}h"
+      },
+      "minutes": "{m}:{ss}",
+      "hours": "@:.hoursUnit @:.minutesUnit"
+    }
+  },
+  "webSharePage": {
+    "title": "Shawe via wink",
+    "loading": "Stawting sewvew…",
+    "stopping": "Stopping sewvew…",
+    "error": "An ewwow occuwwed whiwe stawting the sewvew. (｡•́︿•̀｡)",
+    "openLink": {
+      "one": "Open this wink in youw bwowsew:",
+      "other": "Open one of these winks in youw bwowsew:"
+    },
+    "requests": "Wequests",
+    "noRequests": "No wequests yet.",
+    "encryption": "@:settingsTab.network.encryption",
+    "autoAccept": "Automaticawwy accept wequests",
+    "requirePin": "Wequiwe PIN",
+    "pinHint": "The PIN is \"{pin}\"",
+    "encryptionHint": "OldySend uses a sewf-signed cewtificate. You need to accept it in youw bwowsew~",
+    "pendingRequests": "Pending wequests: {n}"
+  },
+  "webReceivePage": {
+    "title": "Weceive via wink"
+  },
+  "aboutPage": {
+    "title": "About OldySend",
+    "description": [
+      "OldySend is a fwee, open-souwce app that awwows you to secuwewy shawe fiwes and messages with neawby devices ovew youw wocaw netwowk without needing an intewnet connection~ (◕ᴗ◕✿)",
+      "This app is avaiwabwe on Andwoid, iOS, macOS, Windows and Winux. You can find aww downwoad options on the officiaw homepage."
+    ],
+    "author": "Authow",
+    "contributors": "Contwibutows",
+    "packagers": "Packagews",
+    "translators": "Twanswatows"
+  },
+  "donationPage": {
+    "title": "Donate",
+    "info": "LocalSend is fwee, open-souwce and without any ads. If you wike the app, you can suppowt the devewopment with a donation~",
+    "donate": "Donate {amount}",
+    "thanks": "Thank you vewy much! uwu (◕ᴗ◕✿)",
+    "restore": "Westowe puwchase"
+  },
+  "changelogPage": {
+    "title": "Changewog"
+  },
+  "whatsNewPage": {
+    "title": "What's new in {version} owo",
+    "changes(interface=WhatsNewStrings)": {
+      "v1_18_0": {
+        "changes": [
+          "Encwyption no wongew swows down twansfews. It has been we-enabwed on this device if you tuwned it off befowe.",
+          "Wequests fwom favowites awe now accepted automaticawwy. This is tuwned on by defauwt and can be disabwed in the settings.",
+          "On Andwoid, twansfews continue whiwe the app is in the backgwound ow the scween is off. On iOS, the app must stiww stay in the fowegwound."
+        ]
+      }
+    }
+  },
+  "aliasGenerator(ignoreMissing, ignoreGpt)": {
+    "@info": "Different locales may have different words, it may not match 1:1",
+    "adjectives": [
+      "Adowabwe",
+      "Beautifuw",
+      "Big",
+      "Bwight",
+      "Cwean",
+      "Cwevew",
+      "Coow",
+      "Cute",
+      "Cunning",
+      "Detewmined",
+      "Enewgetic",
+      "Fwuffy",
+      "Fantastic",
+      "Fast",
+      "Fine",
+      "Fwesh",
+      "Good",
+      "Gowgeous",
+      "Gweat",
+      "Smow",
+      "Wawm",
+      "Kind",
+      "Wovewy",
+      "Mystic",
+      "Neat",
+      "Nice",
+      "Patient",
+      "Pwetty",
+      "Powewfuw",
+      "Sweepy",
+      "Secwet",
+      "Smawt",
+      "Sowid",
+      "Speciaw",
+      "Snuggwy",
+      "Stwong",
+      "Tidy",
+      "Wise"
+    ],
+    "fruits": [
+      "Appwe",
+      "Avocado",
+      "Banana",
+      "Bwackbewwy",
+      "Bwuebewwy",
+      "Bwoccowi",
+      "Cawwot",
+      "Chewwy",
+      "Coconut",
+      "Gwape",
+      "Wemon",
+      "Wettuce",
+      "Mango",
+      "Mewon",
+      "Mushwoom",
+      "Onion",
+      "Owange",
+      "Papaya",
+      "Peach",
+      "Peaw",
+      "Pineappwe",
+      "Potato",
+      "Pumpkin",
+      "Waspbewwy",
+      "Stwawbewwy",
+      "Tomato"
+    ],
+    "combination": "{adjective} {fruit}",
+    "@combination": "In some languages, the adjective must be last."
+  },
+  "dialogs": {
+    "addFile": {
+      "title": "Add to sewection",
+      "content": "What do you want to add? owo"
+    },
+    "openFile": {
+      "title": "Open fiwe",
+      "content": "Do you want to open the weceived fiwe?"
+    },
+    "addressInput": {
+      "title": "Entew addwess",
+      "hashtag": "Hashtag",
+      "ip": "IP Addwess",
+      "recentlyUsed": "Wecentwy used: "
+    },
+    "cancelSession": {
+      "title": "Cancew fiwes twansfew",
+      "content": "Do you weawwy want to cancew the fiwes twansfew? (｡•́︿•̀｡)"
+    },
+    "cannotOpenFile": {
+      "title": "Cannot open fiwe",
+      "content": "Couwd not open \"{file}\". Has this fiwe been moved, wenamed ow deweted?"
+    },
+    "encryptionDisabledNotice": {
+      "title": "Encwyption disabwed",
+      "content": "Communication now takes pwace via the unencwypted HTTP pwotocow. To use HTTPS pwotocow, enabwe encwyption again."
+    },
+    "errorDialog": {
+      "title": "@:general.error"
+    },
+    "favoriteDialog": {
+      "title": "Favowites",
+      "noFavorites": "No favowite devices yet.",
+      "addFavorite": "Add"
+    },
+    "favoriteDeleteDialog": {
+      "title": "Dewete fwom favowites",
+      "content": "Do you weawwy want to dewete \"{name}\" fwom favowites?"
+    },
+    "favoriteEditDialog": {
+      "titleAdd": "Add to favowites",
+      "titleEdit": "Settings",
+      "name": "Device name",
+      "auto": "(auto)",
+      "ip": "IP Addwess",
+      "port": "Powt"
+    },
+    "fileInfo": {
+      "title": "Fiwe infowmation",
+      "fileName": "Fiwe name:",
+      "path": "Path:",
+      "size": "Size:",
+      "sender": "Sendew:",
+      "time": "Time:"
+    },
+    "fileNameInput": {
+      "title": "Entew fiwe name",
+      "original": "Owiginaw: {original}"
+    },
+    "historyClearDialog": {
+      "title": "Cweaw histowy",
+      "content": "Do you weawwy want to dewete the entiwe histowy?"
+    },
+    "localNetworkUnauthorized": {
+      "title": "@:dialogs.noPermission.title",
+      "description": "OldySend can't find othew devices without the pewmission to scan the wocaw netwowk. P-pwease gwant this pewmission in the settings~",
+      "gotoSettings": "Settings"
+    },
+    "messageInput": {
+      "title": "Type message",
+      "multiline": "Muwtiwine"
+    },
+    "noFiles": {
+      "title": "No fiwes sewected",
+      "content": "Pwease sewect at weast one fiwe."
+    },
+    "noPermission": {
+      "title": "No pewmission",
+      "content": "You have not gwanted the necessawy pewmissions. Pwease gwant them in the settings."
+    },
+    "notAvailableOnPlatform": {
+      "title": "Not avaiwabwe",
+      "content": "This featuwe is onwy avaiwabwe on:"
+    },
+    "qr": {
+      "title": "QW Code"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "counter": "Countew",
+      "prefix": "Pwefix",
+      "padZero": "Pad with zewos",
+      "sortBeforeCount": "Sowt awphabeticawwy befowehand (A-Z)",
+      "random": "Wandom"
+    },
+    "quickSaveNotice": {
+      "title": "@:general.quickSave",
+      "content": "Fiwe wequests awe now accepted automaticawwy. Be awawe that evewyone on the wocaw netwowk can send you fiwes! >w<"
+    },
+    "quickSaveFromFavoritesNotice": {
+      "title": "@:general.quickSaveFromFavorites",
+      "content": [
+        "Fiwe wequests awe now accepted automaticawwy fwom devices in youw favowites wist~"
+      ]
+    },
+    "pin": {
+      "title": "Entew PIN"
+    },
+    "sendModeHelp": {
+      "title": "Send modes",
+      "single": "Sends fiwes to one wecipient. Sewection wiww be cweawed aftew the fiwes twansfew is finished.",
+      "multiple": "Sends fiwes to muwtipwe wecipients. Sewection wiww not be cweawed aftew the fiwes twansfew is finished.",
+      "link": "Wecipients who do not have OldySend instawwed can downwoad the sewected fiwes by opening the wink in theiw bwowsew."
+    },
+    "zoom": {
+      "title": "UWW"
+    }
+  },
+  "sanitization": {
+    "empty": "Fiwename cannot be empty",
+    "invalid": "Fiwename contains invawid chawactews"
+  },
+  "tray": {
+    "@info": "Apple Guidelines are very strict about the \"close\" wording.",
+    "open": "@:general.open",
+    "close": "Quit OldySend",
+    "closeWindows": "Exit"
+  },
+  "web": {
+    "waiting": "@:sendPage.waiting",
+    "enterPin": "Entew PIN",
+    "invalidPin": "Invawid PIN >w<",
+    "tooManyAttempts": "Too many attempts (╥﹏╥)",
+    "rejected": "Wejected",
+    "files": "Fiwes",
+    "fileName": "Fiwe name",
+    "size": "Size"
+  },
+  "assetPicker": {
+    "@info": "Translations for the Media selection tool for Android and iPhone",
+    "confirm": "Confiwm",
+    "cancel": "Cancew",
+    "edit": "Edit",
+    "gifIndicator": "GIF",
+    "loadFailed": "Woad faiwed >w<",
+    "original": "Owigin",
+    "preview": "Pweview",
+    "select": "Sewect",
+    "emptyList": "Empty wist",
+    "unSupportedAssetType": "Unsuppowted fiwe type.",
+    "unableToAccessAll": "Unabwe to access aww fiwes on the device",
+    "viewingLimitedAssetsTip": "Onwy view fiwes and awbums accessibwe to the app.",
+    "changeAccessibleLimitedAssets": "Cwick to update accessibwe fiwes",
+    "accessAllTip": "App can onwy access some fiwes on the device. Go to system settings and awwow the app to access aww media on the device.",
+    "goToSystemSettings": "Go to system settings",
+    "accessLimitedAssets": "Continue with wimited access",
+    "accessiblePathName": "Accessibwe fiwes",
+    "sTypeAudioLabel": "Audio",
+    "sTypeImageLabel": "Image",
+    "sTypeVideoLabel": "Video",
+    "sTypeOtherLabel": "Othew media",
+    "sActionPlayHint": "pway",
+    "sActionPreviewHint": "pweview",
+    "sActionSelectHint": "sewect",
+    "sActionSwitchPathLabel": "change path",
+    "sActionUseCameraHint": "use camewa",
+    "sNameDurationLabel": "duwation",
+    "sUnitAssetCountLabel": "count"
+  }
+}

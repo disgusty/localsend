@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.disgusty.oldysend'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.disgusty.oldysend'
+        // Android 1.0. Everything newer is reached through Sdk.INT checks or reflection.
+        minSdk 1
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    signingConfigs {
+        release {
+            // Local builds use signing/keystore.properties (not committed); CI provides the keystore through
+            // environment variables (see .github/workflows/oldysend.yml).
+            def props = rootProject.file('signing/keystore.properties')
+            def ks = System.getenv('OLDYSEND_KEYSTORE')
+            if (props.exists()) {
+                def p = new Properties()
+                props.withInputStream { p.load(it) }
+                storeFile rootProject.file('signing/' + p.getProperty('storeFile'))
+                storePassword p.getProperty('storePassword')
+                keyAlias p.getProperty('keyAlias')
+                keyPassword p.getProperty('keyPassword')
+            } else if (ks != null && new File(ks).exists()) {
+                storeFile file(ks)
+                storePassword System.getenv('OLDYSEND_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('OLDYSEND_KEY_ALIAS')
+                keyPassword System.getenv('OLDYSEND_KEY_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            // Without a release key the APK is signed with the debug key, so it still installs.
+            signingConfig signingConfigs.release.storeFile != null ? signingConfigs.release : signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    lint {
+        // NewApi is the guard against calling anything newer than Android 1.0 unchecked.
+        error 'NewApi', 'InlinedApi'
+        // InputType constants are plain ints, only ever handed to Compat.inputType(), which maps them for API 1-2.
+        lintConfig file('lint.xml')
+        abortOnError true
+        checkReleaseBuilds true
+        disable 'ExpiredTargetSdkVersion', 'OldTargetApi', 'MissingTranslation', 'SetTextI18n', 'UnusedResources',
+                'ObsoleteSdkInt', 'DiscouragedApi', 'GradleDependency', 'AndroidGradlePluginVersion'
+    }
+}
+
+dependencies {
+    // Annotations only (@ChecksSdkIntAtLeast lets lint understand Sdk.atLeast); nothing is packaged.
+    compileOnly 'androidx.annotation:annotation:1.9.1'
+}

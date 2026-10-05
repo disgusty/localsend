@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon of the "Automatic" style on this Android version; Launcher.java switches aliases at runtime. -->
+<resources>
+    <item name="ic_launcher" type="drawable">@drawable/ic_launcher_holo</item>
+    <bool name="launcher_classic">false</bool>
+    <bool name="launcher_holo">true</bool>
+    <bool name="launcher_md1">false</bool>
+    <bool name="launcher_md3">false</bool>
+</resources>
